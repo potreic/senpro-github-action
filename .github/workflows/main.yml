@@ -44,7 +44,7 @@ jobs:
 
             echo "Cek folder project";
             [ ! -d "${HOME}/senpro/494882/modul02/senpro-github-action/" ] &&
-
+            {
             echo "Repository belum di-clone. Cloning...";
             mkdir -p ~/senpro/494882/modul02;
             cd ~/senpro/494882/modul02;
